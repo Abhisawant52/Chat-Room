@@ -8,8 +8,8 @@
 
 }
 .tab-title:after{
-	margin:auto;
-	height: 10px;
+    margin:auto;
+    height: 10px;
     display: block;
     width:18%;
     border-top:3px solid #fdca40;
@@ -17,13 +17,13 @@
 }
 .ibox-Content{
 	Margin:2% 10% 0 10%;
-	height:80vh;
+	height:75vh;
 	overflow-y:auto;
 	background: #feffde;
 	padding:1px;
 }
 .msg-box{
-	margin:1% 2%;
+	margin:2% 3%;
 	padding:5px;
 	height:;
 	width: max-content;
