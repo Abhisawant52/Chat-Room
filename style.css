@@ -17,8 +17,8 @@
 }
 .ibox-Content{
 	Margin:2% 10% 0 10%;
-	overflow-y:auto;
 	height:85vh;
+	overflow-y:auto;
 	background: #feffde;
 	padding:1px;
 }
