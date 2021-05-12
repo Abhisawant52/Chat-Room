@@ -1,0 +1,101 @@
+
+   .tab{
+	width:100%;
+    Background-color:#F0F0F0;
+    padding:3% 5% 3% 5%;
+	display:flex;
+   }
+   .Tab1{
+    padding-top:%;
+   }
+   .Tab1 h1{
+    font-weight:bold;
+     Color:#005dac;
+   }
+   
+   .front input{
+    padding-top:2%;
+    padding-bottom:2%;
+   }
+    .front input:focus{
+    border:1px solid #0078d7;
+	    box-shadow:none;
+}
+	.back input{
+    padding-top:1%;
+    padding-bottom:1%;
+   }
+    .back input:focus{
+    border:1px solid #0078d7;
+	    box-shadow:none;
+}
+   .B1{
+    width:100%;
+    font-size:20px;
+   }
+   .error{
+	   color:#f55c47;
+   }
+   #forgot-password{
+    Color:#0078d7;
+    text-align:center;
+   }
+    #forgot-password:hover{
+    text-decoration:underline;
+   }
+   
+   footer{
+    font-size:15px;
+    margin:1% 0 1% 8%;
+    color:gray;
+   }
+   
+   /* new csss*/
+   .flip-container {
+	perspective: 1000px; /*property is used to give a 3D-positioned element */
+}
+.flipper {
+  padding: 30px;
+  width:100%;
+  height:355px;
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  transition: 0.6s;
+  transform-style: preserve-3d;/*	Specifies that child elements will preserve its 3D position*/
+}
+
+.front, .back {
+  /*background-color: rgba(0,0,0,.3);*/
+  position: absolute;
+  padding:10px 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  backface-visibility: hidden;
+}
+
+.front{
+	z-index:2;
+	margin-top:4%;
+	transform: rotateY(0deg);
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+.flip{
+		transform: rotateY(180deg);
+}
+
+.flipbutton{
+    color:#4096ee;
+    text-decoration:none;
+    text-align:left !important;
+	margin-bottom:5%;
+}
+@media screen and (max-width:750px) {
+	.tab{
+		display:block;
+	}
+}
