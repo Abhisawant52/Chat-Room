@@ -17,7 +17,8 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <title>Login Flip-Card</title>
+    <link rel="shortcut icon" type="image/jpg" href="pic/logoAA.png"/>
+    <title>ChatRoom -Abhisawant</title>
   </head>
   <body>
     <div class="tab">
