@@ -8,11 +8,12 @@ Database for the Application is in "database" folder. It can be imported to your
 
 ### Demo Site : http://www.chatroom.unaux.com/
 ## Here is the screenshot of my Chat-Room application:
-Login<br>
+
+## Login:
 
 ![Screenshot](/pic/demo.gif)
 
 
-Chat Page:
+# Chat Page:
 
 ![Screenshot](/pic/demo.png)
